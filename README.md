@@ -1,4 +1,4 @@
-# Project description and proposed solution to the problem
+# Describe the project will you be conducting and how your App will address the client’s needs.
 
 Back2Bikes buy all their bicycle parts from one particular supplier. 
 
@@ -12,7 +12,7 @@ The solution includes creating Backend that will organise the data from the supp
 
 
 
-# High Level Components and abstractions of the APP
+# Explain the different high-level components (abstractions) in your App.
 
 The application will consist of backend which will pull the data from the supplier and serve it to the meteor's Frontend. 
 
@@ -25,7 +25,7 @@ The application will consist of backend which will pull the data from the suppli
     2. COMPONENT: advanced filtering options 
 
 
-# Testing process
+# Provide an overview and description of your Testing process.
 
 Test Driven Development (TDD) is essential. We write tests first. Testing can (and should be) done manually
 
@@ -41,6 +41,6 @@ Write small components that do well defined things. It makes testing more powerf
 
 We use Jest for testing as well as we write stories using Storybook which covers a lot of testing as well. 
 
-### Data protection 
+# Discuss methods you will use to protect information and data. 
 
-check with mike! 
+Firstly we are using environment variables to store our keys securely.  Any sensitive data(supplier parts details) has not been included in the project on Github to make sure this information is not misused. Any members/volunteers are already using seceret pin number to check in for days work.
