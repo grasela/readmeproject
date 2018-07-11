@@ -1,8 +1,8 @@
 # Describe the project will you be conducting and how your App will address the client’s needs.
 
-Back2Bikes buy all their bicycle parts from one particular supplier. 
+Back2Bikes buy all their bicycle parts from one particular supplier - Bicycle Wholesale Australia. 
 
-During customer's bicycle assesment the mechanic comes up with a list of parts that will be required to conduct the repairs. The qualification/sale process is most succesfull with being able to present the prices and details right there on the spot so the customer can make the decision, whether they would like to get the repairs done. At the moment, Back2Bikes exposeses their nett, wholesale pricing to the customers , which allows them to convert the sale on spot , however they are unable to introduce Retail Recommended Pricing which will increase the revenue of the foundation.
+During customer's bicycle assesment the mechanic comes up with a list of parts that will be required to conduct the repairs. The qualification/sale process is most succesfull with being able to present the prices and details right there on the spot so the customer can make the decision, whether they would like to get the repairs done. At the moment Back2Bikes exposeses their nett, wholesale pricing to the customers , which allows them to convert the sale on spot , however they are unable to introduce Retail Recommended Pricing which will increase the revenue of the foundation. They usually try to explain to the customer additional costs (GST, freight etc) however it is a timeconsuming and awkward process.
 
 The solution is to create a full stack application that will pull the data from the supplier and render it on Back2Bikes own app in workshop. This way mechanics/volunteers can follow their known sale/consulting process with improving on margins that come from parts sales. 
 
@@ -14,7 +14,7 @@ The solution includes creating Backend that will organise the data from the supp
 
 # Explain the different high-level components (abstractions) in your App.
 
-The application will consist of backend which will pull the data from the supplier and serve it to the meteor's Frontend. 
+The application will consist of backend which will pull the data from the supplier and serve it to the Meteor's Frontend. 
 
 ### Front end will consist of: 
 1. COMPONENT: List of parts (name, part number, description, image ... )
@@ -31,7 +31,7 @@ Test Driven Development (TDD) is essential. We write tests first. Testing can (a
 
 Writing tests means the need for manual testing reduces (but never disappears completely).
 
-We consider testing a bit like designing before you start coding. The test is like the design, or even a 'definition of done'. 
+We consider testing a bit like designing before you start coding. The test is like the design or even a 'definition of done'. 
 
 Once you have written some code, the test starts to be useful, because while it is failing, it tells you that you are not finished yet.
 
